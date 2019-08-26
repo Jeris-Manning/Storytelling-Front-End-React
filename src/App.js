@@ -4,6 +4,8 @@ import HomePage from './components/HomePage';
 import CountriesTab from './components/CountriesTab';
 import StoryList from './components/StoryList';
 import StoryForm from './components/StoryForm';
+import LogIn from './components/LogIn';
+import DonorProfile from './components/donor/DonorProfile';
 
 
 function App() {
@@ -11,9 +13,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <HomePage/>
+        <DonorProfile/>
         <CountriesTab/>
         <StoryList/>
         <StoryForm/>
+        <LogIn/>
       </header>
     </div>
   );
