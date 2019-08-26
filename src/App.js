@@ -12,9 +12,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <HomePage/>
-        <DonorProfile/>
-        <CountriesTab/>
         <StoryList/>
         <StoryForm/>
         <LogIn/>
