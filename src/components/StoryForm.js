@@ -58,36 +58,7 @@ const TextField = styled.div`
     margin: 5px;
   }
 `;
-const Swatch1 = styled.div`
-  height: 100px;
-  width: 100px;
-  background-color: #3a3480;
-`;
-const Swatch2 = styled.div`
-  height: 100px;
-  width: 100px;
-  background-color: #14b1ab;
-`;
-const Swatch3 = styled.div`
-  height: 100px;
-  width: 100px;
-  background-color: #107ba3;
-`;
-const Swatch4 = styled.div`
-  height: 100px;
-  width: 100px;
-  background-color: #c0326a;
-`;
-const Swatch5 = styled.div`
-  height: 100px;
-  width: 100px;
-  background-color: #faa220;
-`;
-const Swatch6 = styled.div`
-  height: 100px;
-  width: 100px;
-  background-color: #d65f28;
-`;
+
 
 function StoryForm({ errors, touched }) {
   return (
@@ -146,12 +117,7 @@ function StoryForm({ errors, touched }) {
         </div>
         <button>Submit Story</button>
       </TextField>
-      <Swatch1 />
-      <Swatch2 />
-      <Swatch3 />
-      <Swatch4 />
-      <Swatch5 />
-      <Swatch6 />
+      
     </Form>
   );
 }
@@ -174,7 +140,7 @@ const FormikStorySubmitForm = withFormik({
   }),
 
   handleSubmit(values, { resetForm, setErrors, setSubmitting }) {
-   
+   console.log(values)
     const token = localStorage.getItem('token');
     const config = {
       headers: {
