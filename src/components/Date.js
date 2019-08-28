@@ -13,6 +13,7 @@ const today = new Date();
   }
    const currentDate = mm + '/' + dd + '/' + yyyy;
    return currentDate;
+
 }
 
 export default CurrentDate

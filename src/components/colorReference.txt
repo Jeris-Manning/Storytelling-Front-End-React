@@ -1,0 +1,6 @@
+purple- #3A3480
+teal- #14B1AB
+dark teal- #107BA3
+fuscia- #C0326A
+golden yellow- #FAA220
+orange- #D65F28
